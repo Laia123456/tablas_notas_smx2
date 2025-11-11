@@ -1,13 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
-    background-color:rgba(38, 176, 218, 0.39);
 }
 
 thead tr th{
     border: 1px solid black;
 }
 
+table{
+    border: 1px solid black;
+}
 
 tbody tr td{
     border: 1px solid black;
@@ -21,6 +23,22 @@ tfoot tr td{
     border: 1px solid black;
 }
 
-.texto_derecha{
-    text-align: right;
+.texto_centro{
+    text-align: center;
+}
+
+.nota_centro{
+    text-align: center;
+}
+
+.nota_8{
+    background-color: green;
+}
+
+.nota_5{
+    background-color: yellow;
+}
+
+.nota_0{
+    background-color: red;
 }
